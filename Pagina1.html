@@ -1,125 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pagina1</title>
-</head>
-<script
-src="https://code.jquery.com/jquery-2.2.4.min.js"
-integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <!-- Compiled and minified CSS -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
- 
-   <!-- Compiled and minified JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-           
-<body>
-        <nav>
-                <div class="nav-wrapper">
-                  <a href="#!" class="brand-logo">Logo</a>
-                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                  <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                  </ul>
-                  <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                  </ul>
-                </div>
-              </nav>
-    <section>
-            <div class="carousel carousel-slider center" data-indicators="true">
-                    <div class="carousel-fixed-item center">
-                    </div>
-                    <div class="carousel-item" href="#one!">
-                      <img src="img/1.jpg" class="responsive-img">
-                    </div>
-                    <div class="carousel-item" href="#two!">
-                      <img src="img/2.jpg" class="responsive-img">
-                    
-                    </div>
-                    <div class="carousel-item" href="#three!">
-                      <img src="img/3.jpg" class="responsive-img">
-                     
-                    </div>
-                    <div class="carousel-item" href="#four!">
-                      <img src="img/4.jpg" class="responsive-img">
-                      
-                    </div>
-            </div>
-      </section>
-      <div class="row">
-        <div class="card">
-          <div class="col s12 m6 l3">
-            <img src="img/cabaña.jpg"class="responsive-img">
-            <h5>Cabaña</h5>
-            <p> Lorem ipsum dolor sit amet consectetur.</p>
-            <button>Comprar</button> <button>Ver mas</button>         
-          </div>
-        </div>
 
-        <div class="row">
-            <div class="col s12 m6 l3">
-              <div class="card">
-                <div class="card-image">
-                    <img src="img/cabaña.jpg"class="responsive-img">
-                  <span class="card-title">Cabaña</span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                  <div class="row">
-                      <a class="waves-effect waves-light btn col s5">Comprar</a>
-                      <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-                
-      
-        <div class="col s12 m6 l3">
-          <img src="img/cabaña1.jpg"class="responsive-img">
-          <h5>Cabaña</h5>
-          <p> Lorem ipsum dolor sit amet consectetur.</p>
-        <button>Comprar</button> <button>Ver mas</button>        
-      </div>
-      
-        <div class="col s12 m6 l3">
-          <img src="img/cabaña2.jpg"class="responsive-img">
-          <h5>Cabaña</h5>
-          <p> Lorem ipsum dolor sit amet consectetur.</p>
-        <button>Comprar</button> <button>Ver mas</button>        
-      </div>
-      <div class="col s12 m6 l3">
-        <img src="img/cabaña3.jpg"class="responsive-img">
-        <h5>Cabaña</h5>
-        <p> Lorem ipsum dolor sit amet consectetur.</p>
-      <button>Comprar</button> <button>Ver mas</button>        
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagina1</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+  <style>
+    .imgContainer img{
+      height: 100%;
+    }
+
+    .imgC{
+      height: 400px;
+    }
+
+    .imgContainer{
+      height: 200px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Cabañas</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Productos</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Productos</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
     </div>
-    <div class="col s12 m6 l3">
-      <img src="img/cabaña4.jpg"class="responsive-img">
-      <h5>Cabaña</h5>
-      <p> Lorem ipsum dolor sit amet consectetur.</p>
-    <button>Comprar</button> <button>Ver mas</button>        
-  </div>
-  <div class="col s12 m6 l3">
-    <img src="img/cabaña5.jpg"class="responsive-img">
-    <h5>Cabaña</h5>
-    <p> Lorem ipsum dolor sit amet consectetur.</p>
-  <button>Comprar</button> <button>Ver mas</button>        
-</div>
+  </nav>
+  <section class="imgContainerSec">
+    <div class="carousel carousel-slider center" data-indicators="true">
+      <div class="carousel-fixed-item center">
       </div>
-      <script>
-       $(".button-collapse").sideNav();
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
-    </script>
+      <div class="carousel-item imgContainerSec" href="#one!">
+        <img class="imgC" src="img/1.jpg" class="responsive-img">
+      </div>
+      <div class="carousel-item imgContainerSec" href="#two!">
+        <img class="imgC" src="img/2.jpg" class="responsive-img">
+
+      </div>
+      <div class="carousel-item imgContainerSec" href="#three!">
+        <img class="imgC" src="img/3.jpg" class="responsive-img">
+
+      </div>
+      <div class="carousel-item imgContainerSec" href="#four!">
+        <img class="imgC" src="img/4.jpg" class="responsive-img">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header">
+          <h1 style="font-family: 'Rozha One', serif;" class="center-align">GALERIA</h1>
+        </div>
+      </div>
+  </section>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña.jpg">
+          <span class="card-title">Cabaña numero 1</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña1.jpg">
+          <span class="card-title">Cabaña numero 2</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña2.jpg">
+          <span class="card-title">Cabaña numero 3</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña3.jpg">
+          <span class="card-title">Cabaña numero 4</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña4.jpg">
+          <span class="card-title">Cabaña numero 5</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image imgContainer">
+          <img src="img/cabaña5.jpg">
+          <span class="card-title">Cabaña numero 6</span>
+        </div>
+        <div class="card-content">
+          <p>Yo soy una cabaña muy comoda que este en la pinches nada </p>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn col s5">Comprar</a>
+          <a class="waves-effect waves-light btn pink lighten-4 col s5 offset-s1">Leer Mas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(".button-collapse").sideNav();
+    $('.carousel.carousel-slider').carousel({ fullWidth: true });
+  </script>
 </body>
+
 </html>
